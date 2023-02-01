@@ -130,7 +130,7 @@ public class Interactive {
     }
 
     public static void limpaTela() {
-        System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+        System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
 
         //COMANDO COM ANSI QUE NÂO ESTA FUNCIONANDO NO INTELLIJ - VERIFICAR OPCAO DEPOIS
         //System.out.print("\033[H\033[2J");

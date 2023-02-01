@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81c854b5-04cb-462e-a00c-dcb1210825b9" name="Changes" comment="primeiro deploy" />
+    <list default="true" id="81c854b5-04cb-462e-a00c-dcb1210825b9" name="Changes" comment="primeiro deploy">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Interactive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Interactive.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675209654218</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="primeiro deploy">
+      <created>1675209964583</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675209964583</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
