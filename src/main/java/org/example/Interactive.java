@@ -8,8 +8,15 @@ import static org.example.Temporizador.tempo;
 import static org.example.Validacao.validaOpcao;
 
 public class Interactive {
+
+    //STRINGS STATICAS USADAS EM DIVERSOS METODOS
     public static String msgMenu = "\nDIGITE A OPÇÃO DESEJADA: \n(C) --- CONTINUAR \n(M) --- MENU PRINCIPAL\n(S) --- SAIR";
     public static String msgOpcao = "\nDIGITE A OPÇÃO DESEJADA: \n(S) --- SIM \n(N) --- NÃO";
+    public static String msg1 = "Digite um número de 1 a 999.999: ";
+    public static String msg2 = "Digite um número de 1 a 999.999: ";
+    public static String errorMsg = "Erro ao efetuar operaçao. Entre em contato com o suporte técnico.\n";
+
+    //VARIAVEIS
     static int opcao = 0;
     private static Scanner scn;
 
@@ -132,9 +139,7 @@ public class Interactive {
     public static void limpaTela() {
         System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
 
-        //COMANDO COM ANSI QUE NÂO ESTA FUNCIONANDO NO INTELLIJ - VERIFICAR OPCAO DEPOIS
-        //System.out.print("\033[H\033[2J");
-        //System.out.flush();
+        // COMANDO COM ANSI QUE NÂO ESTA FUNCIONANDO NO INTELLIJ
+        // VERIFICAR OPCAO DEPOIS
     }
-
 }

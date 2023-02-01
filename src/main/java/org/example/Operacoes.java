@@ -6,7 +6,7 @@ import static org.example.Interactive.*;
 import static org.example.Temporizador.tempo;
 import static org.example.Validacao.validaNumero;
 
-public class Operacoes extends CalcPlataforma {
+public class Operacoes {
 
     public static void programaSoma(Scanner scn){
         try {
@@ -14,15 +14,15 @@ public class Operacoes extends CalcPlataforma {
             tempo();
             cabecalho(scn);
             int n1, n2;
-            System.out.println(CalcPlataforma.msg1);
+            System.out.println(Interactive.msg1);
             n1 = validaNumero(scn);
-            System.out.println(CalcPlataforma.msg2);
+            System.out.println(Interactive.msg2);
             n2 = validaNumero(scn);
             int soma = n1 + n2;
             System.out.println(n1 + " + " + n2 + " = " + soma);
             continuar(scn);
         } catch (Exception e) {
-            System.out.println(CalcPlataforma.errorMsg);
+            System.out.println(Interactive.errorMsg);
         }
     }
 
@@ -31,15 +31,15 @@ public class Operacoes extends CalcPlataforma {
             limpaTela();
             cabecalho(scn);
             int n1, n2;
-            System.out.println(CalcPlataforma.msg1);
+            System.out.println(Interactive.msg1);
             n1 = validaNumero(scn);
-            System.out.println(CalcPlataforma.msg2);
+            System.out.println(Interactive.msg2);
             n2 = validaNumero(scn);
             int resto = n1 - n2;
             System.out.println(n1 + " - " + n2 + " = " + resto);
             continuar(scn);
         } catch (Exception e) {
-            System.out.println(CalcPlataforma.errorMsg);
+            System.out.println(Interactive.errorMsg);
         }
     }
 
@@ -48,15 +48,15 @@ public class Operacoes extends CalcPlataforma {
             limpaTela();
             cabecalho(scn);
             int n1, n2;
-            System.out.println(CalcPlataforma.msg1);
+            System.out.println(Interactive.msg1);
             n1 = validaNumero(scn);
-            System.out.println(CalcPlataforma.msg2);
+            System.out.println(Interactive.msg2);
             n2 = validaNumero(scn);
             int produto = n1 * n2;
             System.out.println(n1 + " x " + n2 + " = " + produto);
             continuar(scn);
         } catch (Exception e) {
-            System.out.println(CalcPlataforma.errorMsg);
+            System.out.println(Interactive.errorMsg);
         }
     }
 
@@ -66,9 +66,9 @@ public class Operacoes extends CalcPlataforma {
             cabecalho(scn);
             int n1, n2;
 
-            System.out.println(CalcPlataforma.msg1);
+            System.out.println(Interactive.msg1);
             n1 = validaNumero(scn);
-            System.out.println(CalcPlataforma.msg2);
+            System.out.println(Interactive.msg2);
             n2 = validaNumero(scn);
 
             if (n1 == 0) {
@@ -85,19 +85,19 @@ public class Operacoes extends CalcPlataforma {
             continuar(scn);
         }
         catch (Exception e) {
-            System.out.println(CalcPlataforma.errorMsg);
+            System.out.println(Interactive.errorMsg);
         }
     }
 
     public static void programaDivideDouble(Scanner scn) {
         try {
-            //limpaTela();
-            //cabecalho(scn);
+            limpaTela();
+            cabecalho(scn);
             int n1, n2;
 
-            System.out.println(CalcPlataforma.msg1);
+            System.out.println(Interactive.msg1);
             n1 = validaNumero(scn);
-            System.out.println(CalcPlataforma.msg2);
+            System.out.println(Interactive.msg2);
             n2 = validaNumero(scn);
 
             if (n1 == 0) {
@@ -114,7 +114,7 @@ public class Operacoes extends CalcPlataforma {
 
         }
         catch (Exception e) {
-            System.out.println(CalcPlataforma.errorMsg);
+            System.out.println(Interactive.errorMsg);
         }
     }
 
@@ -129,7 +129,7 @@ public class Operacoes extends CalcPlataforma {
             System.out.println("O quadrado de " + n1 + " é: " + quadrado);
             continuar(scn);
         } catch (Exception e) {
-            System.out.println(CalcPlataforma.errorMsg);
+            System.out.println(Interactive.errorMsg);
         }
     }
 
@@ -148,7 +148,7 @@ public class Operacoes extends CalcPlataforma {
             System.out.println("A raíz quadrada de " + n1 + " é :" + raiz);
             continuar(scn);
         } catch (Exception e) {
-            System.out.println(CalcPlataforma.errorMsg);
+            System.out.println(Interactive.errorMsg);
         }
     }
 }
